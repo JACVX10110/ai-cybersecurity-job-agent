@@ -125,10 +125,9 @@ dentro de n8n.
 
 El sistema fue configurado para ejecutarse automáticamente:
 
-- Lunes
-- Miércoles
-- Viernes
-- 7:00 AM
+- Martes
+- Jueves
+- 8:00 AM
 
 utilizando Windows Task Scheduler y Schedule Trigger en n8n.
 
