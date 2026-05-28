@@ -40,4 +40,4 @@ El sistema fue diseñado para funcionar completamente de manera automática sin 
 
 # Arquitectura del flujo
 
-LinkedIn Scraper → jobs.json → n8n → Ollama → Telegram + Google Sheets
+LinkedIn Scraper → jobs.json → n8n → Ollama → Telegram + Google Sheet
