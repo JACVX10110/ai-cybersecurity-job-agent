@@ -42,25 +42,98 @@ El sistema fue diseñado para funcionar completamente de manera automática sin 
 
 LinkedIn Scraper → jobs.json → n8n → Ollama → Telegram + Google Sheets
 
-## Instalación
 
-npm install
-npx playwright install
+# Instalación
 
+## 1. Clonar repositorio
+
+```bash
+git clone https://github.com/TU_USUARIO/ai-cybersecurity-job-agent.git
+```
 
 ---
 
-## 5. Cómo ejecutar
+## 2. Entrar al proyecto
 
-md id="r5"
+```bash
+cd ai-cybersecurity-job-agent
+```
 
-## Ejecutar
+---
 
-bash
+## 3. Instalar dependencias
+
+```bash
+npm install
+```
+
+---
+
+## 4. Instalar Playwright
+
+```bash
+npx playwright install
+```
+
+---
+
+## 5. Instalar Ollama
+
+Descargar desde:
+
+https://ollama.com
+
+Luego instalar modelo:
+
+```bash
+ollama pull qwen2.5
+```
+
+---
+
+# Cómo ejecutar
+
+## Ejecutar scraper
+
+```bash
 node linkedin.js
+```
+
+---
+
+## Ejecutar n8n
+
+```bash
+n8n
+```
+
+---
+
+# Workflow de n8n
+
+Importar el archivo:
+
+```txt
+Linkedin Workflow.json
+```
+
+dentro de n8n.
+
+---
+
+# Automatización
+
+El sistema fue configurado para ejecutarse automáticamente:
+
+- Lunes
+- Miércoles
+- Viernes
+- 7:00 AM
+
+utilizando Windows Task Scheduler y Schedule Trigger en n8n.
 
 
-## 6. Screenshots
+## Screenshots
 
 ## Workflow n8n
 ![Workflow](screenshots/workflow.png)
@@ -72,3 +145,10 @@ node linkedin.js
 
 ## Google Sheets
 ![Workflow](screenshots/googlesheets.png)
+
+
+## Autor
+
+Javier Calvachi
+
+Proyecto personal orientado a automatización, IA aplicada y ciberseguridad.
