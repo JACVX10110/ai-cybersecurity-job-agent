@@ -44,7 +44,6 @@ LinkedIn Scraper → jobs.json → n8n → Ollama → Telegram + Google Sheets
 
 ## Instalación
 
-```bash
 npm install
 npx playwright install
 
@@ -53,11 +52,13 @@ npx playwright install
 
 ## 5. Cómo ejecutar
 
-```md id="r5"
+md id="r5"
+
 ## Ejecutar
 
-```bash
+bash
 node linkedin.js
+
 
 ## 6. Screenshots
 
@@ -70,4 +71,4 @@ node linkedin.js
 
 
 ## Google Sheets
-![Workflow](screenshots/google sheets.png)
+![Workflow](screenshots/googlesheets.png)
