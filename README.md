@@ -62,12 +62,12 @@ node linkedin.js
 ## 6. Screenshots
 
 ## Workflow n8n
-
+![Workflow](screenshots/workflow.png)
 
 
 ## Telegram Bot
-
+![Workflow](screenshots/telegram.png)
 
 
 ## Google Sheets
-
+![Workflow](screenshots/google sheets.png)
